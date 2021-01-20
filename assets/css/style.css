@@ -314,7 +314,7 @@ img{
 
 /* ===== OFFERS =====*/
 .offer__bg{
-    background: url("../img/offer3.jpg") no-repeat center/cover;
+    background: url("./img/offer3.jpg") no-repeat center/cover;
     text-align: center;
 }
 .offer__data{
