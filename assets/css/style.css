@@ -205,7 +205,8 @@ img{
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 50%;
+    width: 310px;
+    transform: translateZ(-1);
 }
 /*BUTTONS*/
 .button{
