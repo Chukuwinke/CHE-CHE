@@ -205,7 +205,7 @@ img{
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 50%;
+
     height: auto;
     
 }
@@ -510,4 +510,20 @@ img{
        
     }
 }
+@media screen and ( max-width: 1024px ) {
+    .home__img{
+        width: 200px;
+       
+    }
+    
+}
+
+@media screen and ( min-width: 1025px) {
+    .home__img{
+        width: 300px;
+       
+    }
+    
+}
+   
 
