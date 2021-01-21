@@ -205,7 +205,7 @@ img{
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 150px;
+    width: 260px;
     
 }
 /*BUTTONS*/
@@ -506,32 +506,7 @@ img{
     }
     .home__img{
         right: 15%;
-        width: 370px;
+       
     }
-}
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
 }
 
