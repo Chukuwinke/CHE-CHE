@@ -541,5 +541,16 @@ img{
     }
     
 }
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+    .home__button{
+        bottom: 0;
+    }
+
+
+}
    
 
