@@ -209,6 +209,19 @@ img{
     height: auto;
     
 }
+.home__button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: var(--white-color);
+    padding: 1rem;
+    font-size: var(--small-font-size);
+    font-weight: var(--font-semi);
+    transition: .3s;
+}
+.home__button:hover{
+    background-color: var(--first-color-alt);
+}
+
 /*BUTTONS*/
 .button{
     display: inline-block;
@@ -466,6 +479,9 @@ img{
     }
     .home__img{
         width: 270px;
+    }
+    .home__button{
+        bottom: 0;
     }
     .collection__container{
         grid-template-columns: repeat(2,1fr);
