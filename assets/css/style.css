@@ -446,8 +446,9 @@ img{
     .home__img{
         width: 32%;
         height: auto;
-        object-fit: contain;
+        
         /*
+        object-fit: contain;
         position: absolute;
         */
        
