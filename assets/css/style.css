@@ -443,15 +443,14 @@ img{
 
 /* ===== MEDIA QUERIES =====*/
 @media screen and (min-width: 500px) {
+    body{
+        margin: 0;
+
+    }
+    
     .home__img{
         width: 32%;
-        object-fit: contain;
         
-        /*
-        
-        position: absolute;
-        */
-       
     }
     
     .home__data{
@@ -459,10 +458,7 @@ img{
         height: max-content;
         align-self: center;
     }
-    .home__container img{
-        position: absolute;
-        bottom: 0;
-    }
+    
     
     
 }
