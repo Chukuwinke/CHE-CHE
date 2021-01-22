@@ -445,7 +445,7 @@ img{
 @media screen and (min-width: 500px) {
     .home__img{
         width: 32%;
-        height: auto;
+        height: max-content;
         /*
         position: absolute;
         */
