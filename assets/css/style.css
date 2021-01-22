@@ -459,6 +459,10 @@ img{
         height: max-content;
         align-self: center;
     }
+    .home__container img{
+        position: absolute;
+        bottom: 0;
+    }
     
     
 }
