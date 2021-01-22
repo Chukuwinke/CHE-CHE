@@ -81,7 +81,8 @@ a{
     color: var(--dark-color);
 }
 img{
-    max-width: 100%;
+    width: 100%;
+    max-width: 300px;
     height: auto;
 }
 /* ===== CLASS CSS =====*/
@@ -205,8 +206,6 @@ img{
     position: absolute;
     right: 0;
     bottom: 0;
-
-    height: auto;
     
 }
 .home__button{
@@ -526,31 +525,7 @@ img{
        
     }
 }
-@media screen and ( max-width: 1024px ) {
-    .home__img{
-        width: 200px;
-       
-    }
-    
-}
-
-@media screen and ( min-width: 1025px) {
-    .home__img{
-        width: 300px;
-       
-    }
-    
-}
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) 
-  and (orientation: landscape) {
-    .home__button{
-        bottom: 0;
-    }
 
 
-}
    
 
