@@ -381,6 +381,7 @@ img{
 }
 .new__img{
     width: 250px;
+    align-self: flex-start;
 }
 .new__link{
     position: absolute;
