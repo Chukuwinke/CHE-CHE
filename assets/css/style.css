@@ -333,6 +333,8 @@ img{
 
 .featured__img{
     width: 50%;
+    height: auto;
+    align-self: flex-start;
     
 }
 
