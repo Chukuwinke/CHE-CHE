@@ -557,9 +557,9 @@ img{
         width: 25%;
     }
 }
-@media screen and (max-width: 736px) and (orientation: landscape){
+@media screen and (max-width: 736px){
     .home__img{
-        max-width: 50%;
+        max-width: 20%;
         height: auto;
     }
 }
